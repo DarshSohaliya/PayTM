@@ -11,8 +11,4 @@ import mongoose from "mongoose";
 
     })
 
-    const User = mongoose.model("User", userSchema)
-
-    module.exports ={
-        User
-    }
+    export default mongoose.model("User" ,userSchema)
